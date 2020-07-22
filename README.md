@@ -27,7 +27,7 @@ let B = omit(
 // => { b: 2, d: 4 }
 
 let C = omit(
-    (value) => ( value === null ),
+    (value, key) => ( value === null ),
     { a: 1, b: null, c: 3, d: null }
 );
 // => { a: 1, c: 3 }

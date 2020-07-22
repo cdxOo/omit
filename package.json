@@ -1,5 +1,5 @@
 {
-  "name": "@cdxOo/omit",
+  "name": "@cdxoo/omit",
   "version": "1.0.0",
   "description": "my variant of omitting object properties",
   "main": "src/index.js",

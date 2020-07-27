@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+# build directories that will be published
+# but do only include automatically generated code
+lib
